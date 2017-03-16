@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Portfolio site</title>
+  <meta name="description" content="Project 'make a portfolio website' for Udacity FEND">
+  <meta name="keywords" content="udacity, portfolio, website">
+  <meta name="author" content="Alfio Parisi">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- Lato web font -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+  <!-- main CSS -->
+  <link rel="stylesheet" href="min-css/main.min.css">
+</head>
+<body>
+  <!-- page wrapper -->
+  <div class="container-fluid">
+    <!-- header -->
+    <header class="row top-head">
+      <!-- logo -->
+      <div class="col-xs-3">
+        <img src="https://d125fmws0bore1.cloudfront.net/assets/logo/logo-mark-4de82a316313e57f376a2c726bac7bd0733076006f0fd8acb6185c262257c846.svg"
+        alt="Udacity logo">
+      </div>
+      <!-- title -->
+      <div class="col-xs-9 text-right text-uppercase">
+        <h1>Alfio Parisi</h1>
+        <h4>Front-end dev-wannabe</h4>
+      </div>
+    </header>  <!-- /.row -->
+    <div class="row">
+      <div class="col-xs-12">
+        <hr>
+      </div>
+    </div>
+    <!-- main image -->
+    <section class="row main-img">
+      <figure class="col-md-12">
+        <picture>
+          <source srcset="img-responsive/light-blue-bg-small.webp 500w,
+          img-responsive/light-blue-bg-med.webp 1000w,
+          img-responsive/light-blue-bg-large.webp 1500w" sizes="100vw"
+          type="image/webp">
+          <source srcset="img-responsive/light-blue-bg-small.jpg 500w,
+          img-responsive/light-blue-bg-med.jpg 1000w,
+          img-responsive/light-blue-bg-large.jpg 1500w" sizes="100vw">
+          <img src="images/light-blue-gb.jpg" alt="light blue background">
+        </picture>
+      </figure>
+    </section>  <!-- /.row -->
+    <!-- bottom images -->
+    <section class="row btm-imgs">
+      <!-- title -->
+      <header class="row">
+        <div class="col-md-12">
+          <h2 class="text-muted">Featured Work</h2>
+        </div>
+      </header>
+      <!-- images -->
+      <div class="row">
+        <!-- first image -->
+        <article class="col-md-4 clearfix">
+          <figure>
+            <picture>
+              <source srcset="img-responsive/internet-tunnel-small.webp 500w,
+              img-responsive/internet-tunnel-med.webp 1000w"
+              sizes="(max-width: 420px) 100vw, (max-width: 991px) 50vw, 30vw"
+              type="image/webp">
+              <source srcset="img-responsive/internet-tunnel-small.jpg 500w,
+              img-responsive/internet-tunnel-med.jpg 1000w"
+              sizes="(max-width: 420px) 100vw, (max-width: 991px) 50vw, 30vw">
+              <img src="images/internet-tunnel.jpg" alt="internet tunnel">
+            </picture>
+            <figcaption>
+              <h3 class="text-center text-uppercase">Internet tunnel</h3>
+            </figcaption>
+          </figure>
+          <a class="text-center" href="#">link to nowhere</a>
+        </article>
+        <!-- second image -->
+        <article class="col-md-4 clearfix">
+          <figure>
+            <picture>
+              <source srcset="img-responsive/lake-at-sunset-small.webp 500w,
+              img-responsive/lake-at-sunset-med.webp 1000w"
+              sizes="(max-width: 420px) 100vw, (max-width: 991px) 50vw, 30vw"
+              type="image/webp">
+              <source srcset="img-responsive/lake-at-sunset-small.jpg 500w,
+              img-responsive/lake-at-sunset-med.jpg 1000w"
+              sizes="(max-width: 420px) 100vw, (max-width: 991px) 50vw, 30vw">
+              <img src="images/lake-at-sunset.jpg" alt="lake in sunset light">
+            </picture>
+            <figcaption>
+              <h3 class="text-center text-uppercase">Lake</h3>
+            </figcaption>
+          </figure>
+          <a class="text-center" href="#">link to nowhere</a>
+        </article>
+        <!-- third image -->
+        <article class="col-md-4 clearfix">
+          <figure>
+            <picture>
+              <source srcset="img-responsive/conv-lines-small.webp 500w,
+              img-responsive/conv-lines-med.webp 1000w"
+              sizes="(max-width: 420px) 100vw, (max-width: 991px) 50vw, 30vw"
+              type="image/webp">
+              <source srcset="img-responsive/conv-lines-small.jpg 500w,
+              img-responsive/conv-lines-med.jpg 1000w"
+              sizes="(max-width: 420px) 100vw, (max-width: 991px) 50vw, 30vw">
+              <img src="images/conv-lines.jpg" alt="convergent lines">
+            </picture>
+            <figcaption>
+              <h3 class="text-center text-uppercase">Convergent</h3>
+            </figcaption>
+          </figure>
+          <a class="text-center" href="#">link to nowhere</a>
+        </article>
+      </div>  <!-- /inner row -->
+    </section>  <!-- /.row -->
+    <footer class="row">
+      <p class="col-xs-12">
+        Images from
+          <a href="http://www.planwallpaper.com/background-images" target="_blank">
+            Planwallpaper
+          </a>
+      </p>
+    </footer>
+  </div>
+</body>
+</html>
